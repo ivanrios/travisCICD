@@ -1,6 +1,6 @@
 'use strict';
 var calculadora = {
-    sumar: function (a, b) {
+    suma: function (a, b) {
         return a + b;
     }
 };
