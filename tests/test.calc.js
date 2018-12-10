@@ -13,6 +13,10 @@ describe("Pruebas de Calculadora ", function () {
             var resultado = calculadora.suma(1, 3);
             assert.typeOf(resultado, "number", "El tipo de dato no es correcto");
         });
+        it("Probando la multiplicación ", function () {
+            var resultado = calculadora.multiplica(5, 3);
+            assert.equal(15, resultado, "multiplicación incorrecta");
+        });
     });
 
 

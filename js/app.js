@@ -4,7 +4,7 @@ $(document).ready(
         var a =  parseInt($("#a").val());
         var b = parseInt($("#b").val());
 
-        var resultado = calculadora.suma(a,b);
+        var resultado = calculadora.multiplica(a,b);
         $("#resultado").html(resultado)
     })
 
