@@ -7,7 +7,10 @@ var calculadora = {
         return a - b;
     },
     divide: function (a, b) {
-        return a / b;
+        if (b==0)
+          return 0
+        else
+          return a / b;
     },
     multiplica: function (a, b) {
         return a * b;

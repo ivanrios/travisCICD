@@ -21,6 +21,10 @@ describe("Pruebas de Calculadora ", function () {
             var resultado = calculadora.divide(15, 3);
             assert.equal(5, resultado, "divide incorrecta");
         });
+        it("Probando la división entre cero ", function () {
+            var resultado = calculadora.divide(15, 0);
+            assert.equal(0, resultado, "divide incorrecta");
+        });
     });
 
 
