@@ -2,9 +2,9 @@ language: node_js
 node_js:
   - "7"
 deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: "292e28a2b3eb6b4eaf8c56ef68302478cd1aff1b"  # Set in the settings page of your repository, as a secure variable
-  keep-history: true
+  provider: s3
+  access_key_id: "AKIAI4M43H3KWO2M6CKQ"
+  secret_access_key: "qRyeoOhV24FCe69jqrk+1Us8o11LYPcmHvoQO1Ny"
+  bucket: "travisdemocicd"
   on:
     branch: master
