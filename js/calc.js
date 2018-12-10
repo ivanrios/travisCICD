@@ -6,7 +6,10 @@ var calculadora = {
     resta: function (a, b) {
         return a - b;
     },
-    division: function (a, b) {
+    divide: function (a, b) {
+        return a / b;
+    },
+    multiplica: function (a, b) {
         return a * b;
     }
     

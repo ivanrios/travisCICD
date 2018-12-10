@@ -17,6 +17,10 @@ describe("Pruebas de Calculadora ", function () {
             var resultado = calculadora.multiplica(5, 3);
             assert.equal(15, resultado, "multiplicación incorrecta");
         });
+        it("Probando la división ", function () {
+            var resultado = calculadora.divide(15, 3);
+            assert.equal(5, resultado, "divide incorrecta");
+        });
     });
 
 
